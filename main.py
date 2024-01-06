@@ -11,12 +11,6 @@ speed = 0.05
 mx = [float(0), float(2)] # x zoom !zoom == zoom!
 my = [float(0), float(2)] # y zoom !zoom == zoom!
 
-xz = 1
-yz = -3
-xc = 2
-yc = 5
-
-
 class fractal():
 	@staticmethod
 	@njit(fastmath=True, parallel = True)
